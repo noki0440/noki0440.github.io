@@ -1,0 +1,128 @@
+/*LIGHT TURQUOISE: #009688;
+  DARK TEAL: #00524a 
+  TAN/MAUVE: #9b8c8d */
+
+/* BASIC SETUP */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*REUSABLE CONTENTS (mostly buttons)*/
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+     background color: #00524a;
+}
+
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #009688;
+    border: 1px solid #009688; 
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #00524a; 
+    background-color: #00524a;
+}
+
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #009688;
+    color: #009688;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #00524a;
+    color: #009688; 
+}*/
+
+/*BACKGROUND IMAGE*/
+/*header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imgs/paddle.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}*/
+
+.hero-text-box{
+    position: absolute;
+    max-width: 1140px;
+    top: 40%;
+    left: -1.1%;
+    transform: translate (-50%, -50%);
+}
+
+.main-nav{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    list-style: none;
+    margin-top: 20px;
+   
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 4px 0;
+    color: #9b8c8d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #9b8c8d;
+    
+}
+
+/*HEADER TEXT*/
+h1{
+    margin-top: 0;
+    margin-bottom: 2px;
+    color: rgb(18, 56, 65);
+    font-size: 500%;
+    font-weight: 300;
+    font-family: 'Inknut Antiqua', serif;
+    letter-spacing: 10px;
+   
+}
