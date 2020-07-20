@@ -7,12 +7,11 @@ $(document).ready(function(){
             $('nav').removeClass('sticky');
         }
     }, {
-      offset: '288px;'
+      offset: '308px;'
     });
     
     
 $('a[href*="#"]')
-  // Remove links that don't actually link to anything
   .not('[href="#"]')
   .not('[href="#0"]')
   .click(function(event) {
