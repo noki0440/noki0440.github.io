@@ -7,16 +7,14 @@
   LIGHT TAN CREAM (about page): #f0f0ee OR RN#e0e0dc;
   CHARCOAL GRAY: 2b2b2b; */
 
-/* BASIC SETUP */
 
+/* BASIC SETUP */
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
 
 html{
   
@@ -39,24 +37,6 @@ section{
     padding: 100px;
 }
 
-
-
-/*.btn:link,
-.btn:visited {
-    display: inline-block;
-    padding: 10px 20px;
-    font-weight: 300;
-    text-decoration: none;
-    border-radius: 200px;
-    color: #fff;
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
-}*/
-
-/*.btn:hover,
-.btn:active {
-     background color: #00524a;
-}*/
-
 .btn-full-one,
 .btn-full-two,
 .btn-full-three,
@@ -72,13 +52,11 @@ section{
  }
 
 .btn-full-one{
-    margin-left: 35px;
-   
+    margin-left: 35px; 
 }
 
 .btn-full-two{
     margin-left: 65px;
-
 }
 
 .btn-full-three{
@@ -87,35 +65,8 @@ section{
 
 .btn-full-four{
     margin-left: 225px;
-   
 }
 
-/*.btn-full:link,
-.btn-full:visited {
-    background-color: #009688;
-    border: 1px solid #009688; 
-    color: #fff;
-    margin-right: 15px;
-}
-
-/*.btn-full:hover,
-.btn-full:active {
-    border: 1px solid #00524a; 
-    background-color: #00524a;
-}*/
-
-
-/*.btn-ghost:link,
-.btn-ghost:visited {
-    border: 1px solid #009688;
-    color: #009688;
-}
-
-.btn-ghost:hover,
-.btn-ghost:active {
-    border: 1px solid #00524a;
-    color: #009688; 
-}*/
 
 /*OPENING PAGE*/
 header{
@@ -138,22 +89,14 @@ header{
     top: 0;
     left: 40%;
     list-style: none;
-    margin-top: 4.6px;
-
-    
+    margin-top: 4.6px;  
 }
-/*.main-nav-stuck{
-    float: right;
-    list-style: none;
-    margin-top: 55px;
-}*/
 
   
 /*MAIN NAVIGATION BAR*/
 .main-nav li{
     display: inline-block;
     margin-left: 60px;
-
 }
 
 .main-nav li a:link,
@@ -164,8 +107,7 @@ header{
     text-transform: uppercase;
     font-size: 90%;
     border-bottom: 2px solid transparent;
-    transition: border-bottom 0.2s;
-   
+    transition: border-bottom 0.2s; 
 }
 
 .main-nav li a:hover,
@@ -176,7 +118,8 @@ header{
 
 
 /*STICKY NAVIGATION BAR*/
-.sticky {
+
+.sticky{
     position: fixed;
     top: 0;
     right: -3.8%;
@@ -185,14 +128,16 @@ header{
     z-index: 9999;
 }
 
-.sticky .main-nav { margin-top: 4px; margin-bottom: 6px;}
+.sticky .main-nav{
+    margin-top: 4px; 
+    margin-bottom: 6px;
+}
 
 .sticky .main-nav li a:link,
-.sticky .main-nav li a:visited {
+.sticky .main-nav li a:visited{
     padding: 4px 0;
     color: #b0b0a6;
 }
-
 
 
 /*HEADER TEXT*/
@@ -203,8 +148,7 @@ h4{
    
     font-weight: 300;
     letter-spacing: 10px;
-    font-family: 'Inknut Antiqua', serif;
-   
+    font-family: 'Inknut Antiqua', serif;  
 }
 
 h1{
@@ -212,7 +156,6 @@ h1{
     margin-bottom: 2px;
     color: rgb(11, 68, 82);
     font-size: 500%;
-   
 }
 
 h2{
@@ -220,7 +163,6 @@ h2{
     color: #fff;
     text-align: right;
     margin-bottom: 10px;
-
 }
 
 h3{
@@ -238,16 +180,12 @@ h4{
     margin-bottom: 40px;
 }
 
-.line-in-middle {
-
-    background: linear-gradient( 90deg, #e0e0dc, #e0e0dc 160px, #0d5061 160px, #0d5061 162.7px, #e0e0dc 40px); 
-    
+.line-in-middle{
+    background: linear-gradient( 90deg, #e0e0dc, #e0e0dc 160px, #0d5061 160px, #0d5061 162.7px, #e0e0dc 40px);  
 }
 
 .line-in-middle-two {
-
-    background: linear-gradient( 90deg, #fff, #fff 160px, #0d5061 160px, #0d5061 162.7px, #fff 40px); 
-    
+    background: linear-gradient( 90deg, #fff, #fff 160px, #0d5061 160px, #0d5061 162.7px, #fff 40px);  
 }
 
 
@@ -256,11 +194,9 @@ h4{
 .section-learn{
     background-color: #e0e0dc;
      background: linear-gradient( 90deg, #e0e0dc, #e0e0dc 260px, #0d5061 260px, #0d5061 263.5px, #e0e0dc 40px);
-    
 }
-.learn-box {
+.learn-box{
     margin-top: 5px;
-   
 }
 
 .learn-box:first-child{
@@ -275,14 +211,12 @@ h4{
 }
 
 .profile-pic{
-  
     width: 130%;
 }
 
 .learn-more{
     width: 120%;
     font-size: 84%; 
-
 }
 
 
@@ -292,11 +226,15 @@ h4{
      background: linear-gradient( 90deg, #fff, #fff 260px, #0d5061 260px, #0d5061 263.5px, #fff 40px);
 }
 
+.section-footer{
+    background: #0B4452;
+}
+
+
 /* EXPERIENCE PAGE */
 
 .section-experience{
     background-color: #0B4452;
-   
 }
 
 .explain-one{
@@ -306,19 +244,18 @@ h4{
 
 .explain-one:first-child{
     margin-top: 25px;
-   
 }
 
 .explain-one:last-child{
      padding-left: 30px;
 }
 
+
 /* CONTACT FORM */
 
 .section-form{
     background-color: #fff;
      background: linear-gradient( 90deg, #fff, #fff 260px, #0d5061 260px, #0d5061 263.5px, #fff 40px);
-    
 }
 
 .contact-form {
@@ -346,24 +283,4 @@ input[type=checkbox] {
 
 *:focus {outline: none;}
 
-
-.js--wp-1,
-.js--wp-2,
-.js--wp-3
-{
-    opacity: 0;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-}
-
-.js--wp-4 {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-}
-
-.js--wp-1.animated,
-.js--wp-2.animated,
-.js--wp-3.animated {
-    opacity: 1;
-}
 
