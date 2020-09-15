@@ -9,7 +9,6 @@
 
 
 /* BASIC SETUP */
-
 *{
     margin: 0;
     padding: 0;
@@ -64,7 +63,7 @@ section{
 }
 
 .btn-full-four{
-    margin-left: 225px;
+    margin-left: 125px;
 }
 
 
@@ -84,6 +83,8 @@ header{
     transform: translate (-50%, -50%);
 }
 
+
+/*MAIN NAVIGATION BAR*/
 .main-nav{
     position: relative;
     top: 0;
@@ -92,8 +93,6 @@ header{
     margin-top: 4.6px;  
 }
 
-  
-/*MAIN NAVIGATION BAR*/
 .main-nav li{
     display: inline-block;
     margin-left: 60px;
@@ -118,7 +117,6 @@ header{
 
 
 /*STICKY NAVIGATION BAR*/
-
 .sticky{
     position: fixed;
     top: 0;
@@ -189,12 +187,12 @@ h4{
 }
 
 
-/*ATTMPT TWO INFO PAGE*/
-
+/*INFO PAGE*/
 .section-learn{
     background-color: #e0e0dc;
      background: linear-gradient( 90deg, #e0e0dc, #e0e0dc 260px, #0d5061 260px, #0d5061 263.5px, #e0e0dc 40px);
 }
+
 .learn-box{
     margin-top: 5px;
 }
@@ -221,7 +219,6 @@ h4{
 
 
 /* BREAK */
-
 .section-break{
      background: linear-gradient( 90deg, #fff, #fff 260px, #0d5061 260px, #0d5061 263.5px, #fff 40px);
 }
@@ -232,7 +229,6 @@ h4{
 
 
 /* EXPERIENCE PAGE */
-
 .section-experience{
     background-color: #0B4452;
 }
@@ -252,7 +248,6 @@ h4{
 
 
 /* CONTACT FORM */
-
 .section-form{
     background-color: #fff;
      background: linear-gradient( 90deg, #fff, #fff 260px, #0d5061 260px, #0d5061 263.5px, #fff 40px);
@@ -261,6 +256,12 @@ h4{
 .contact-form {
     width: 60%;
     margin: 0 auto;
+}
+
+.contact-me {
+    text-align: center;
+    font-size: 84%;
+    padding: 0 260px;
 }
 
 input[type=text],
@@ -282,5 +283,3 @@ input[type=checkbox] {
 }
 
 *:focus {outline: none;}
-
-
