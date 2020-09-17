@@ -90,9 +90,10 @@ header{
 
 /*MAIN NAVIGATION BAR*/
 .main-nav{
-    position: relative;
-    transform: translate(-35%, -80%);
+    float: right;
     list-style: none;
+    transform: translate(-80%, -50%);
+   
      
 }
 
