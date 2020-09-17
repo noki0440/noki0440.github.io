@@ -81,10 +81,10 @@ header{
 
 .hero-text-box{
     position: absolute;
-    max-width: 1140px;
+    width: 1140px;
     top: 40%;
     left: -1.1%;
-    transform: translate (-50%, -50%);
+    transform: translate(-.03%, 0);
 }
 
 
