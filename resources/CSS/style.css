@@ -91,20 +91,20 @@ header{
 /*MAIN NAVIGATION BAR*/
 .main-nav{
     position: relative;
-    top: 0;
-    left: 40%;
+    transform: translate(-35%, -80%);
     list-style: none;
-    margin-top: 4.6px;  
+     
 }
 
 .main-nav li{
     display: inline-block;
     margin-left: 60px;
+    
 }
 
 .main-nav li a:link,
 .main-nav li a:visited{
-    padding: 4px 0;
+    
     color: #b0b0a6;
     text-decoration: none;
     text-transform: uppercase;
