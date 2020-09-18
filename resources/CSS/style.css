@@ -23,16 +23,19 @@ html{
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+
 }
+
 
 
 /*REUSABLE CONTENTS (mostly buttons)*/
 .row{
-    max-width: 1140px;
+    
     margin: 0 auto;
 }
 
 section{
+    width: auto;
     padding: 100px;
 }
 
@@ -56,6 +59,7 @@ section{
 
 .btn-full-one{
    margin-left: 40px;
+    
 }
 
 .btn-full-two{
@@ -81,7 +85,7 @@ header{
 
 .hero-text-box{
     position: absolute;
-    width: 1140px;
+    max-width: 1140px;
     top: 40%;
     left: -1.1%;
     transform: translate (-.03%, 0);
@@ -93,21 +97,16 @@ header{
     position: relative;
     list-style: none;
     float: right;
-    right: 30%;
-    
-   
-     
+    right: 30%;    
 }
 
 .main-nav li{
     display: inline-block;
-    margin-left: 60px;
-    
+    margin-left: 60px;  
 }
 
 .main-nav li a:link,
-.main-nav li a:visited{
-    
+.main-nav li a:visited{   
     color: #b0b0a6;
     text-decoration: none;
     text-transform: uppercase;
@@ -119,7 +118,6 @@ header{
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom: 2px solid #2b2b2b;   
-
 }
 
 
@@ -142,8 +140,7 @@ header{
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited{
     padding: 4px 0;
-    color: #b0b0a6;
-    
+    color: #b0b0a6; 
 }
 
 
@@ -152,7 +149,6 @@ h1,
 h2,
 h3,
 h4{
-   
     font-weight: 300;
     letter-spacing: 10px;
     font-family: 'Inknut Antiqua', serif;  
@@ -192,7 +188,7 @@ h4{
 }
 
 .line-in-middle-two {
-    background: linear-gradient( 90deg, #fff, #fff 160px, #0d5061 160px, #0d5061 162.7px, #fff 40px);  
+    background: linear-gradient( 90deg, #fff, #fff 160px, #0d5061 160px, #0d5061 162.7px, #fff 40px); 
 }
 
 
@@ -218,7 +214,8 @@ h4{
 }
 
 .profile-pic{
-    width: 130%;
+    max-width: 130%;
+    height: auto;
 }
 
 .learn-more{
