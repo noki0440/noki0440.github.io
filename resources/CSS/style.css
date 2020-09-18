@@ -35,7 +35,6 @@ html{
 }
 
 section{
-   
     padding: 100px;
 }
 
@@ -85,7 +84,7 @@ header{
 
 .hero-text-box{
     position: absolute;
-    max-width: 1140px;
+    width: 1140px;
     top: 40%;
     left: -1.1%;
     transform: translate (-.03%, 0);
@@ -194,10 +193,8 @@ h4{
 
 /*INFO PAGE*/
 .section-learn{
-    background-size: cover;
-    background-position: center;
-    background-color: #e0e0dc;
-     background: linear-gradient( 90deg, #e0e0dc, #e0e0dc 260px, #0d5061 260px, #0d5061 263.5px, #e0e0dc 40px);
+    background-size: inherit;
+    background: linear-gradient( 90deg, #e0e0dc, #e0e0dc 260px, #0d5061 260px, #0d5061 263.5px, #e0e0dc 40px);
 }
 
 .learn-box{
@@ -228,22 +225,19 @@ h4{
 
 /* BREAK */
 .section-break{
-    background-size: cover;
-    background-position: center;
+    background-size: inherit;
     background: linear-gradient( 90deg, #fff, #fff 260px, #0d5061 260px, #0d5061 263.5px, #fff 40px);
 }
 
 .section-footer{
-    background-size: cover;
-    background-position: center;
+    background-size: inherit;
     background: #0B4452;
 }
 
 
 /* EXPERIENCE PAGE */
 .section-experience{
-    background-size: cover;
-    background-position: center;
+    background-size: inherit;
     background-color: #0B4452;
 }
 
@@ -267,8 +261,7 @@ h4{
 
 /* CONTACT FORM */
 .section-form{
-    background-size: cover;
-    background-position: center;
+    background-size: inherit;
     background-color: #fff;
     background: linear-gradient( 90deg, #fff, #fff 260px, #0d5061 260px, #0d5061 263.5px, #fff 40px);
 }
