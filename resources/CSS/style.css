@@ -30,12 +30,12 @@ html{
 
 /*REUSABLE CONTENTS (mostly buttons)*/
 .row{
-    
+    max-width: 1140px;
     margin: 0 auto;
 }
 
 section{
-    padding: 100px;
+    padding: 100px 100px;
 }
 
 .btn-full-none,
@@ -43,8 +43,12 @@ section{
 .btn-full-two,
 .btn-full-three,
 .btn-full-four{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #d1d1c9;
-    border: 1px solid #d1d1c9; 
+    border: 2px solid #d1d1c9; 
     color: #fff;
     font-weight: 300;
     text-decoration: none;
@@ -52,26 +56,6 @@ section{
     padding: 10px 20px;
  }
 
-.btn-full-none{
-    margin-left: 5px;
-}
-
-.btn-full-one{
-   margin-left: 40px;
-    
-}
-
-.btn-full-two{
-    margin-left: 45px;
-}
-
-.btn-full-three{
-    margin-left: 25px;
-}
-
-.btn-full-four{
-    margin-left: 85px;
-}
 
 
 /*OPENING PAGE*/
