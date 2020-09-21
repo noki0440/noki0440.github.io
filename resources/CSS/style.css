@@ -35,7 +35,7 @@ html{
 }
 
 section{
-    padding: 100px;
+    padding: 100px 100px;
 }
 
 .btn-full-none,
@@ -60,9 +60,6 @@ section{
 
 /*OPENING PAGE*/
 header{
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imgs/paddle.jpeg);*/
-    background-size: cover;
-    background-position: center;
     height: 100vh;
 }
 
